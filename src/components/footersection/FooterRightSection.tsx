@@ -1,5 +1,5 @@
 // components/FooterRightSection.tsx
-import React from 'react';
+import React from "react";
 
 const FooterRightSection: React.FC = () => {
   return (
@@ -14,11 +14,17 @@ const FooterRightSection: React.FC = () => {
               (973)-650-7080
             </a>
           </div>
-          <div className="flex items-center justify-center sm:justify-start space-x-2 flex-col">
-            <a href="mailto:haddadmaher@yahoo.com" className="hover:text-red-500">
+          <div className="flex flex-col items-center sm:items-start space-y-2">
+            <a
+              href="mailto:haddadmaher@yahoo.com"
+              className="hover:text-red-500"
+            >
               haddadmaher@yahoo.com
             </a>
-            <a href="mailto:info@ajhcontractors.com" className="hover:text-red-500">
+            <a
+              href="mailto:info@ajhcontractors.com"
+              className="hover:text-red-500"
+            >
               info@ajhcontractors.com
             </a>
           </div>
