@@ -14,12 +14,12 @@ const FooterRightSection: React.FC = () => {
               (973)-650-7080
             </a>
           </div>
-          <div className="flex items-center justify-center sm:justify-start space-x-2">
-            <a
-              href="mailto:haddadmaher@yahoo.com"
-              className="hover:text-red-500"
-            >
-              haddadmaher@yahoo.com <br /> info@ajhcontractors.com
+          <div className="flex items-center justify-center sm:justify-start space-x-2 flex-col">
+            <a href="mailto:haddadmaher@yahoo.com" className="hover:text-red-500">
+              haddadmaher@yahoo.com
+            </a>
+            <a href="mailto:info@ajhcontractors.com" className="hover:text-red-500">
+              info@ajhcontractors.com
             </a>
           </div>
         </div>

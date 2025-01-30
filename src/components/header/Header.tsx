@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { Menu, ChevronDown } from 'lucide-react';
-import { MdEmail, MdPhone } from 'react-icons/md';
-import MobileMenu from './MobileMenu';
-import { RiFacebookFill } from 'react-icons/ri';
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Menu, ChevronDown } from "lucide-react";
+import { MdEmail, MdPhone } from "react-icons/md";
+import MobileMenu from "./MobileMenu";
+import { RiFacebookFill } from "react-icons/ri";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               width={180}
               height={180}
               className="cursor-pointer"
-              style={{ width: 'auto', height: 'auto' }}
+              style={{ width: "auto", height: "auto" }}
             />
           </Link>
         </div>
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
             <MdEmail size={20} />
             <span>haddadmaher@yahoo.com</span>
             <a
-              href="https://www.facebook.com/ajandhcontractors" 
+              href="https://www.facebook.com/ajandhcontractors"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer"
@@ -60,8 +60,14 @@ const Header: React.FC = () => {
               <FaLinkedin size={20} />
             </a>
             <MdPhone size={20} />
-            <span>(973)-650-7080</span>
+            <a
+              href="tel:+19736507080"
+              className="underline"
+            >
+              (973)-650-7080
+            </a>
           </div>
+
           <nav className="flex space-x-4 mt-2 text-sm">
             <Link href="/">HOME</Link>
             <Link href="/aboutus">ABOUT</Link>
@@ -73,18 +79,18 @@ const Header: React.FC = () => {
               </div>
               <div className="absolute hidden group-hover:flex flex-col bg-white text-[#800000] shadow-lg z-50">
                 {[
-                  'TILES',
-                  'HARDWOOD FLOORING',
-                  'KITCHENS',
-                  'BATHROOM REMODELING',
-                  'DRYWALL',
-                  'PAINTING',
+                  "TILES",
+                  "HARDWOOD FLOORING",
+                  "KITCHENS",
+                  "BATHROOM REMODELING",
+                  "DRYWALL",
+                  "PAINTING",
                 ].map((service, index) => (
                   <Link
                     key={index}
                     href={`/ourservices/${service
                       .toLowerCase()
-                      .replace(/ /g, '-')}`}
+                      .replace(/ /g, "-")}`}
                     className="px-4 py-2 hover:bg-[#800000] hover:text-white transition-all duration-300 whitespace-nowrap"
                   >
                     {service}

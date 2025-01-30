@@ -70,7 +70,7 @@ const HeroSection = () => {
             {slides[currentIndex].headingSmall.text}
           </h2>
           <h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold transition-all duration-1000 ease-in-out mt-4"
+            className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold transition-all duration-1000 ease-in-out mt-4"
             style={{
               color: slides[currentIndex].headingLarge.color,
               transform: 'translateY(20px)',
