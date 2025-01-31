@@ -61,7 +61,7 @@ const OurServices = () => {
       <h2 className="text-3xl lg:text-5xl font-bold text-center text-[#800000] mb-8">
         OUR SERVICES
       </h2>
-      <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-[#800000] mb-8 leading-normal sm:leading-relaxed">
+      <h1 className="text-xl sm:text-2xl lg:text-2xl font-bold text-center text-[#800000] mb-8 leading-normal sm:leading-relaxed">
         Discover AJ&H Contractors <br /> RESIDENTIAL & COMMERCIAL improvement{' '}
         <br />
         Design Build Remodeling Contractors Serving North Jersey Since 2000
