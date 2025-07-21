@@ -23,36 +23,36 @@ const Footer: React.FC = () => {
             <div className="grid grid-cols-2 gap-x-8 mt-4">
               <ul className="space-y-2">
                 <li>
-                  <Link href="/" className="hover:text-red-500">
+                  <Link href="/" className="hover:text-red-800">
                     HOME
                   </Link>
                 </li>
                 <li>
-                  <Link href="/aboutus" className="hover:text-red-500">
+                  <Link href="/aboutus" className="hover:text-red-800">
                     ABOUT
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="hover:text-red-500">
+                  <Link href="/contact" className="hover:text-red-800">
                     CONTACT
                   </Link>
                 </li>
               </ul>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/faq" className="hover:text-red-500">
+                  <Link href="/faq" className="hover:text-red-800">
                     FAQ&apos;s
                   </Link>
                 </li>
                 <li>
-                  <Link href="/gallery" className="hover:text-red-500">
+                  <Link href="/gallery" className="hover:text-red-800">
                     GALLERY
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/"
-                    className="hover:text-red-500"
+                    className="hover:text-red-800"
                   >
                     SERVICES
                   </Link>

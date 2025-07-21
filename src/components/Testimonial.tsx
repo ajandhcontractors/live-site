@@ -63,9 +63,9 @@ const Testimonial: React.FC = () => {
                 key={index}
               >
                 <div className="flex items-center mb-4">
-                  <div className="bg-gray-700 w-[80px] h-[80px] mr-4 flex items-center justify-center text-white font-bold">
+                  {/* <div className="bg-gray-700 w-[80px] h-[80px] mr-4 flex items-center justify-center text-white font-bold">
                     80x80
-                  </div>
+                  </div> */}
                   <div>
                     <h3 className="text-lg font-semibold">
                       {testimonial.name}

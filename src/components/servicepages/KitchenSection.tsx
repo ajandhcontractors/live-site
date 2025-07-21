@@ -151,7 +151,15 @@ const KitchenSection = () => {
 
         {/* Contact Info */}
         <div className="text-lg text-gray-800 dark:text-white">
-          <p>Phone: (973) 650-7080</p>
+         <p>
+    Phone:{' '}
+    <a
+      href="tel:9736507080"
+      className="text-blue-500 dark:text-blue-400 font-medium hover:underline"
+    >
+      (973)-650-7080
+    </a>
+  </p>
           <p>
             Email:{' '}
             <a

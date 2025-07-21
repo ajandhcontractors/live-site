@@ -81,46 +81,47 @@ const HeroSection = () => {
         </div>
 
         {/* Left Arrow */}
-        <div
-          onClick={prevImage}
-          className="absolute left-8 top-1/2 transform -translate-y-1/2 cursor-pointer bg-black p-4 rounded-full text-white hover:bg-gray-700 transition duration-300 ease-in-out"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-        </div>
+       <div
+  onClick={prevImage}
+  className="absolute left-8 top-1/2 transform -translate-y-1/2 cursor-pointer bg-black p-4 max-[400px]:p-2 rounded-full text-white hover:bg-gray-700 transition duration-300 ease-in-out"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    className="w-6 h-6 max-[400px]:w-4 max-[400px]:h-4"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      d="M15 19l-7-7 7-7"
+    />
+  </svg>
+</div>
 
         {/* Right Arrow */}
         <div
-          onClick={nextImage}
-          className="absolute right-8 top-1/2 transform -translate-y-1/2 cursor-pointer bg-black p-4 rounded-full text-white hover:bg-gray-700 transition duration-300 ease-in-out"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </div>
+  onClick={nextImage}
+  className="absolute right-8 top-1/2 transform -translate-y-1/2 cursor-pointer bg-black p-4 max-[400px]:p-2 rounded-full text-white hover:bg-gray-700 transition duration-300 ease-in-out"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    className="w-6 h-6 max-[400px]:w-4 max-[400px]:h-4"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      d="M9 5l7 7-7 7"
+    />
+  </svg>
+</div>
+
       </section>
 
       {/* Info Section */}

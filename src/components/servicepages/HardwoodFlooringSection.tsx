@@ -142,18 +142,27 @@ const HardwoodFlooringSection = () => {
 
         {/* Contact Info */}
         <div className="text-lg text-gray-800 dark:text-white">
-          <p>Phone: (973)-650-7080</p>
-          <p>
-            Email:{' '}
-            <a
-              href="mailto:haddadmaher@yahoo.com"
-              className="text-blue-500 dark:text-blue-400"
-            >
-              haddadmaher@yahoo.com
-            </a>
-          </p>
-          <p>Address: 525 Lafayette Ave, Hawthrone, NJ 07506</p>
-        </div>
+  <p>
+    Phone:{' '}
+    <a
+      href="tel:9736507080"
+      className="text-blue-500 dark:text-blue-400 font-medium hover:underline"
+    >
+      (973)-650-7080
+    </a>
+  </p>
+  <p>
+    Email:{' '}
+    <a
+      href="mailto:haddadmaher@yahoo.com"
+      className="text-blue-500 dark:text-blue-400 font-medium hover:underline"
+    >
+      haddadmaher@yahoo.com
+    </a>
+  </p>
+  <p>Address: 525 Lafayette Ave, Hawthrone, NJ 07506</p>
+</div>
+
       </div>
     </div>
   );

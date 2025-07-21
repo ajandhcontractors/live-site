@@ -31,7 +31,7 @@ const WorkGallery = () => {
   };
 
   return (
-    <div className="bg-white px-8 py-2">
+    <div className="bg-white px-8 py-2 pb-10">
       <h5 className="text-xl font-bold text-center text-[#800000] my-4">
         WORK GALLERY
       </h5>
