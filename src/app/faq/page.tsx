@@ -4,6 +4,7 @@ import Copyright from '@/components/Copyright';
 import FAQ from '@/components/Faq';
 import Footer from '@/components/footersection/Footer';
 import Header from '@/components/header/Header';
+import StickyContactBar from '@/components/StickyContactBar';
 import React from 'react';
 
 const page = () => {
@@ -13,6 +14,7 @@ const page = () => {
       <FAQ />
       <Footer />
       <Copyright />
+      <StickyContactBar />
     </>
   );
 };

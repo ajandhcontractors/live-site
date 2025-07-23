@@ -7,35 +7,35 @@ const testimonials = [
     name: 'Shaun',
     title: 'Regional Manager, XL Park',
     review:
-      'I have had the pleasure of working with the HARDWOOD FLOORS team for over a year. The team has been incredibly knowledgeable, efficient, and professional.',
+      'I have had the pleasure of working with the AJ&H Contractor hardwood floors team for over a year. The team has been incredibly knowledgeable, efficient, and professional.',
     stars: 5,
   },
   {
     name: 'Vincent',
     title: 'Green Valley International',
     review:
-      '"AJ&H Contractor did an amazing job installing tiles in my kitchen and bathrooms. The precision and attention to detail were top-notch. They worked efficiently and left no mess behind. I’m thrilled with the results and would definitely recommend their tile installation services to anyone looking for perfection."',
+      'AJ&H Contractor did an amazing job installing tiles in my kitchen and bathrooms. The precision and attention to detail were top-notch. They worked efficiently and left no mess behind. I’m thrilled with the results and would definitely recommend their tile installation services to anyone looking for perfection.',
     stars: 5,
   },
   {
     name: 'Nathan',
     title: 'CEO, High Rise Construction',
     review:
-      'I"AJ&H Contractor exceeded my expectations with my bathroom remodel. They turned my outdated bathroom into a modern and functional space. From selecting high-quality materials to completing the work on time, their professionalism and expertise were evident throughout the project."',
+      'AJ&H Contractor exceeded my expectations with my bathroom remodel. They turned my outdated bathroom into a modern and functional space. From selecting high-quality materials to completing the work on time, their professionalism and expertise were evident throughout the project.',
     stars: 5,
   },
   {
     name: 'Monica',
     title: 'Manager',
     review:
-      'I hired AJ&H Contractor for interior painting, and I’m beyond impressed. They helped me pick the perfect colors for each room and executed the job flawlessly. The walls look stunning, and their attention to detail is remarkable. They’re the best in the business!',
+      'I hired AJ&H Contractor for interior painting, and I’m beyond impressed. They helped me pick the perfect colors for each room and executed the job flawlessly. The walls look stunning, and their attention to detail is remarkable. AJ&H Contractor is the best in the business!',
     stars: 5,
   },
   {
     name: 'John',
     title: 'Developer',
     review:
-      "I've had the privilege of collaborating with the BATHROOM REMODELING team for over a year. Their expertise, responsiveness, and professionalism have been outstanding.",
+      "I've had the privilege of collaborating with the AJ&H Contractor bathroom remodeling team for over a year. Their expertise, responsiveness, and professionalism have been outstanding.",
     stars: 5,
   },
 ];

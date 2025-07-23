@@ -3,6 +3,7 @@ import Footer from '@/components/footersection/Footer';
 import Header from '@/components/header/Header';
 import React from 'react';
 import Copyright from '@/components/Copyright';
+import StickyContactBar from '@/components/StickyContactBar';
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <Drywall />
       <Footer />
       <Copyright />
+      <StickyContactBar />
     </>
   );
 };
